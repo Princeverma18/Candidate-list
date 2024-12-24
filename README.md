@@ -16,4 +16,4 @@ This is a full-stack application that displays a list of candidates, allowing us
 
 1. Clone the repository:
    git clone https://github.com/Princeverma18/candidate-list-viewer.git
-   cd candidate-list-viewer
+
