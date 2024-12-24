@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     const fetchCandidates = async () => {
       console.log("Fetchinf data");
-      const response = await axios.get('http://localhost:5000/api/candidates');
+      const response = await axios.get('http://localhost:3000/api/candidates');
       setCandidates(response.data);
     };
     fetchCandidates();

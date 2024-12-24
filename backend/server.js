@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-const port = 5000;
+const port = 3000;
 
 const candidates = [
   { id: 1, name: 'Rahul kumar', skills: 'React, Node.js', yearsOfExperience: 3 },
